@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RockPaperScissors</string>
+    <string name="player_1">Player 1</string>
+    <string name="player_2">Player 2</string>
+    <string name="rock">Rock</string>
+    <string name="paper">Paper</string>
+    <string name="scissors">Scissors</string>
+    <string name="not_clicked">Not clicked</string>
+    <string name="clicked">Clicked</string>
+    <string name="player_1_win">Player 1 wins!</string>
+    <string name="player_2_win">Player 2 wins!</string>
+    <string name="tie">Tie!</string>
+    <string name="go">Go!</string>
+    <string name="reset">Reset</string>
+    <string name="reset_dialog_title">Reset?</string>
+    <string name="reset_dialog_text">Are you sure you want to reset?</string>
+    <string name="reset_confirm">Yes, reset!</string>
+    <string name="reset_cancel">No, don\'t reset.</string>
+    <string name="cheat_for_me">Cheat for me please</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.cis195.rockpaperscissors.CheatActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/player_1_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Player 1: rock"/>
+
+    <TextView
+        android:id="@+id/player_2_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Player 2: not selected"/>
+
+</LinearLayout>

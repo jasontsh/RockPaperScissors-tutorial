@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/player_1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_1"/>
+    <Button
+        android:id="@+id/player_1_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rock"
+        android:layout_toRightOf="@id/player_1_tv"/>
+    <Button
+        android:id="@+id/player_1_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paper"
+        android:layout_toRightOf="@id/player_1_rock"/>
+    <Button
+        android:id="@+id/player_1_scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scissors"
+        android:layout_toRightOf="@id/player_1_paper"/>
+
+    <TextView
+        android:id="@+id/player_1_clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_clicked"
+        android:layout_below="@id/player_1_rock"/>
+
+    <TextView
+        android:id="@+id/player_2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_2"
+        android:layout_below="@id/player_1_clicked"/>
+    <Button
+        android:id="@+id/player_2_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rock"
+        android:layout_toRightOf="@id/player_2_tv"
+        android:layout_alignTop="@id/player_2_tv"/>
+    <Button
+        android:id="@+id/player_2_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paper"
+        android:layout_toRightOf="@id/player_2_rock"
+        android:layout_alignTop="@id/player_2_tv"/>
+    <Button
+        android:id="@+id/player_2_scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scissors"
+        android:layout_toRightOf="@id/player_2_paper"
+        android:layout_alignTop="@id/player_2_tv"/>
+
+    <TextView
+        android:id="@+id/player_2_clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not_clicked"
+        android:layout_below="@id/player_2_paper"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_1_win"
+        android:visibility="gone"
+        android:layout_below="@id/player_2_clicked"/>
+
+    <Button
+        android:id="@+id/evaluate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:layout_below="@id/result"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:onClick="reset"
+        android:layout_below="@id/evaluate"/>
+</RelativeLayout>
